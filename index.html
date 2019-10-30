@@ -3,6 +3,9 @@
 
 <head>
   <title>TensorFlow.js Tutorial</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Import TensorFlow.js -->
   <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"></script>
@@ -11,17 +14,17 @@
 
   <!-- Import the main script file -->
   <script src="script.js"></script>
-  <!-- Added Bootstrap CDN-->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+
+  <!-- Added Materialize CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
 </head>
 
 <body>
-  <table class="table table-dark">
+  <table class="highlight">
     <thead>
       <tr>
         <th scope="col">#</th>
@@ -38,10 +41,11 @@
       <tr>
         <th scope="row">2</th>
         <td>Digit recognition using CNN</td>
-        <td><button class="btn btn-success">Run</button></td>
+        <td><button class="btn btn-success" onclick="run_digit()">Run</button></td>
       </tr>
     </tbody>
   </table>
+  <section style="text-align: center;">NOTE : it will take 3 to 5 seconds</section>
 </body>
 
 </html>
