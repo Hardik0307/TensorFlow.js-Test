@@ -1,2 +1,3 @@
 # TensorFlow.js-Test
-Making Predictions from 2d data using tensorflow.js library.
+Test 1 : Making Predictions from 2d data using tensorflow.js library.
+         Index.html, script.js files.  
