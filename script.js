@@ -142,4 +142,4 @@ function testModel(model, inputData, normalizationData) {
         }
     );
 }
-document.addEventListener('DOMContentLoaded', run);
+//document.addEventListener('DOMContentLoaded', run);
