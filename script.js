@@ -1,4 +1,4 @@
-console.log('Hello TensorFlow');
+console.log('TensorFlow Test');
 
 async function getData() {
     const carsDataReq = await fetch('https://storage.googleapis.com/tfjs-tutorials/carsData.json');
@@ -142,4 +142,3 @@ function testModel(model, inputData, normalizationData) {
         }
     );
 }
-//document.addEventListener('DOMContentLoaded', run);
